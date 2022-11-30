@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/page2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Koulen&family=Montserrat:wght@400;600;700;800&family=Roboto:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,700&family=Space+Grotesk:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Indie+Flower&family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Fascinate&family=Indie+Flower&family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a6b2fb6f3f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="main-header">
+        <a href="../index.html" class="logo">Tessa Delivery</h1>
+        <nav class="main-nav">
+            <a id="sweets"href="../index.html"#sweets>Sweets</a>
+            <a id="about-us" href="../index.html"#about-us>About Us</a>
+            <a id="cafes-near-you" href="../index.html"#near-you>Cafes Near You</a>
+            <a id="contact" href="../index.html"#contact>Contact</a>
+            <a id="special-offers"href="../index.html"#special-offers>Special Offers</a>
+            <a id="feedbacks" href="../feedbacks.html">Feedbacks</a>
+            <a href="../page two.html">Registration</a>
+            <a href="../index.html"#login>Login</a>
+            <a><i class="fa fa-light fa-user"></i></a>
+        </nav>
+    </header>
+    <section class="section1">
+        <form class="registrationform" action="" method="post" id="registration">
+            <i class="fa-brands fa-gratipay"></i>
+            <div class="username">
+                <label class="label" for="username">Enter Your Username</label>
+                <input type="text" id="username" placeholder="Username" name="username" required>
+                <div class="error-text" id="error-username"></div>
+            </div>
+            <div id="form">
+                <label class="label" for="Email">Enter Your Email</label>
+                <input type="email" placeholder="Email" name="email" id="email"  onkeydown="validationEmail()" required>
+                <span id="text"></span>
+             </div>
+             <div class="phone-number">
+                <label class="label">Enter Your Phone Number</label>
+                <input type="tel" placeholder="Phone Number" name="mobile-phone" maxlength="9" required>
+                <div class="error-text" id="error-number"></div>
+            </div>
+            <div class="address">
+                <label class="label">Enter Your Address</label>
+                <input type="text" placeholder="Address" name="home-address" required>
+            </div>
+          
+            <div class="password">
+                <label class="label" for="passw">Enter Your Password</label>
+                <input type="password" id="passw" name="password" placeholder="Password" minlength="8" requred>
+            </div>
+            <div class="password2">
+                <label class="label" for="passw2">Repeat password</label>
+                <input type="password" id="passw2" name="password2" placeholder="Repeat password" required>
+                <div class="error-text" id="error-password"></div>
+            </div>
+            <div class="gender">
+                <input type="radio" name="gender">
+                <label for="" class="label">Male</label>
+                <input type="radio" name="gender">
+                <label for="" class="label">Female</label>
+                <input type="radio" name="gender">
+                <label for="" class="label">Other</label>
+                <div class="error-text" id="error-gender"></div>
+            </div>
+            <div class="terms">
+                 <label class="label" for="termsandconditions">I agree to the Terms & Conditions</label>
+                 <input type="checkbox" name="termsandconditions" id="agree" required>
+                 <div class="error-text" id="error-agree"></div>
+            </div>
+            <!-- <input onclick="clickHandler()" type="button" value="register" class="register" id="registrationdone"> -->
+            <button type="submit" class="register" >register</button>
+        </form>
+    </section>    
+    <footer>
+        <!-- <p>Follow us</p> -->
+        <div class="slider-wrapper">
+            <button class="arrow arrow-left" id="arrow-left"> < </button>
+            <!-- <button class="arrow arrow-right" id="arrow-right"> > </button> -->
+            <div class="slider-content" id="slider-content">
+     
+            </div>
+            <button class="arrow arrow-right" id="arrow-right"> > </button>
+            <div class="dotsParent"></div>
+                
+        <p class="copyright">© Developed By Nikoloz - All Rights Reserved</p>
+    </footer>
+    <script src="../Tessa Delivery/javascript/page.js"></script>
+</body>
+</html>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="", initial-scale=1.0">
+    <meta name="description" content="delivery service in Georgia, new cafes, popular restaurants near you, new offers on lunch">
+    <meta name="keywords" content="lunch, branch, dinner, sweets, restaurants, cafes, delivery, sales, food, near-me cafes">
+    <meta name="author" content="Nikoloz">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Tessa Delivery/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Koulen&family=Montserrat:wght@400;600;700;800&family=Roboto:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,700&family=Space+Grotesk:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Lobster&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Indie+Flower&family=Lobster&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Fascinate&family=Indie+Flower&family=Lobster&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/a6b2fb6f3f.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+
+
+<body>
+    <header class="main-header">
+        <a href="./index.html" class="logo">Tessa Delivery</a>
+        <nav class="main-nav">
+            <a href="#sweets">Sweets</a>
+            <a href="#about-us">About Us</a>
+            <a href="#near-you">Cafes Near You</a>
+            <a href="#contact">Contact</a>
+            <a href="#special-offers">Special Offers</a>
+            <a href="./feedbacks.html">Feedbacks</a>
+            <a href="./page2.html" class="reg-nav">Registration</a>
+            <a href="#login">Login</a>
+            <a><i class="fa fa-light fa-user" id="user"></i></a>
+        </nav>
+        <div class="container" onclick="burgerMod()">
+            <div class="block1"></div>
+            <div class="block2"></div>
+            <div class="block3"></div>
+        </div>
+        <!-- <i class="fa-solid fa-bars fa-xl" id="burger"></i> -->
+    </header>
+    <section class="section1">
+        <h1 class="motto">We Can Deliver Your Food <br> At Any Place in Beautiful Georgia</h1>
+        <div class="filter-container">
+            <div class="search-block">
+                <h3 class="deliveryguy">Choose Your Delivery Guy!</h3>
+                <input type="text" id="filter">
+            </div>
+            <ul id="result" class="ul-list"></ul>
+        </div>
+    </section>
+    <section class="section2" id="sweets">
+        <h2 class="sweets">Craving Sweets?</h2>
+        <div class="cravingsweets">
+            <div class="popular-rest">
+                <div class="ice-cream"> 
+                <div class="ice-cream1">
+                    <i class="fa-brands fa-gratipay"></i>
+                    <p class="title">Gelato Paradiso</p>
+                </div>
+                    <div class="popular1"></div>
+                </div>
+                <div class="donuts">
+                    <div class="donuts1">
+                        <i class="fa-brands fa-gratipay"></i>
+                        <p class="title">Crispy Donuts</p>
+                    </div>
+                    <div class="popular2"></div>
+                </div>
+                <div class="cupcakes">
+                    <div class="cupcakes1">
+                        <i class="fa-brands fa-gratipay"></i>
+                        <p class="title">Cups & Cakes</p>
+                    </div>    
+                        <div class="popular3"></div>
+                </div>
+            </div>
+        <button><a href="./page two.html">Order Now</a></button>
+        </div>
+    </section>
+    <section class="section3" id="about-us">
+        <h3 class="about-us">About Us</h3>
+        <div class="aboutusflex">
+        <article class="about-tessa">Tessa Delivery was founded in 2011 by 3 friends. Company has been awarded for great service several times. Customers are happy about fast delivery, wide choice and helpful customers' service. We hope you enjoy Tessa too! </article>
+        <img class="gif" src="./photo/Animated gif about gif in food🍔🍱🍫 by lovelykseen.gif"></img>
+        <article class="about-tessa">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus qui, deleniti consequatur ut ab minima nam nesciunt iure voluptate quos quam, asperiores minus illum perferendis nihil ipsam cupiditate soluta libero.</article>
+       
+    </div>
+    </section>
+    <section class="section4" id="near-you">
+        <h4 class="near-you">Near You</h4>
+        <div class="near-rest">
+            <div class="rest1">
+                <div class="stars">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="near1"></div>
+                <p>FARGGI</p>
+                <p class="description">Ice-creams, Coffee & More</p>
+                <p class="address">Saint Laurent Str.277</p>
+            </div>
+            <div class="rest2">
+                <div class="stars">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="near2"></div>
+                <p>Hello Sunshine</p>
+                <p class="description">Breakfast & Branch</p>
+                <p class="address">Stendhal Str.12 </p>
+            </div>
+            <div class="rest3">
+                <div class="stars">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>   
+                <div class="near3"></div>
+                <p>Kiwi Cafe</p>
+                <p class="description">Vegan Lunch</p>
+                <p class="address">Silver Str.144, turn I</p>
+            </div>
+        </div>
+    </section>
+    <section class="section5" id="contact">
+        <h5 class="contact-us">Get In Touch</h5>
+        <div class="contact">
+            <div class="location">
+                <i class="fa-solid fa-map-pin fa-xl"></i>
+                <p class="">Main Office</p>
+                <p class="address">16 HermanStrasse, Salzburg, Vienna</p>
+                <p>Texas Office</p>
+                <p class="address">Noblitt St Livingston · 77351</p>
+            </div>
+            <div class="email">
+             <i class="fa-solid fa-envelope fa-xl" id="envelope"></i>
+                <p>Support@tessa.com</p>
+                <div class="social-media">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+            <div class="phone">
+                <i class="fa-regular fa-address-book fa-xl" id="mobile"></i>
+                <p>+3367 8974 7329 78</p>
+                <p>+3367 5234 8745 22</p>
+            </div>
+            <div class="download">
+                <p class="downloadapp">Download App</p>
+                <div class="appstore">
+                    <p>App Store</p>
+                    <i class="fa-brands fa-app-store"></i>
+                </div>
+                <div class="playstore">
+                    <p>Play Store</p>
+                    <i class="fa-brands fa-android"></i>
+                </div>
+            </div>  
+        </div>
+    </section> 
+    <section class="section6" id="special-offers">
+            <h6>Special Offers</h6>
+            <div class="offers">
+                <div class="pizza">-20% on Pizzas</div>
+                <div class="free-delivery">Free Delivery Offers</div>
+                <div class="entire-menu">-15% on entire menu</div>
+                <div class="sushi">2+1 on Sushi Rolls</div>
+                <div class="noodles">New Thai Spots in Town</div>
+                <div class="tacos">Mexican Heaven</div>
+                <div class="italian">-25% on Spaghetti</div>
+                <div class="salad">1+1 on Salad Bowls</div>
+                <div class="steak">Steak House</div>
+            </div>
+    </section> 
+    <section class="section7" id="login">
+            <form class="loginform" action="" id="login1">
+                <p class="login">Login and Order Now</p>
+                <div class="username">
+                    <label class="label">UserName</label>
+                    <input type="text" placeholder="UserName" name="username" id="username1" required>
+                    <input type="checkbox" id="saveuser">
+                </div>
+                <div class="password">
+                    <label class="label">Password</label>
+                    <input type="password" id="showhide" placeholder="Password" name="mypassw" minlength="8" requred>
+                    <i id="toggleIcon" class="fa-regular fa-eye"></i>
+                </div>
+                <input onclick="clickHandler()"  type="button" value="Login" class="loginbutton" id="loggedin">
+            </form>
+            <a class="registernow" href="./page2.html">Don't have an account? Register Now</a>
+            <p class="logo1">Tessa Delivery</p>
+    </section>
+    <section class="section8" id="faq"> 
+        <div class="accordion">
+        <p class="faqtitle">FAQ</p>
+            <div class="container1">
+              <h3 class="accordion-title">Can I order food out of town?</h3>
+              <p class="content">Yes, our service offers delivery at any place all over the country! One the biggest plus of using Tessa is that we do not fear the distance. You just need to know what would you like to eat and our curriers will deliver it at any place! Also, we work 24 hours 7 days a week!</p>
+            </div>
+
+            <div class="container1">
+                <h3 class="accordion-title">How fast does the delivery service work?</h3>
+                <p class="content">Delivery time varies from 10-50mins, depending on your location and how far you are from your favorite restaurant! We are trying our best to deliver your dish as soon as possible. Delivering food while it's still hot is our main priority. Therefore, rapid service is our signature!</p>
+              </div>
+
+              <div class="container1">
+                <h3 class="accordion-title">How can cafe/restaurant start using your service?</h3>
+                <p class="content">For business, please send us an email here: business@tessa.com. Promise you, we reply faster than anyone :)</p>
+              </div>
+        </div>
+        
+
+    </section>
+    <footer>
+        <p class="copyright">© Developed By Nikoloz - All Rights Reserved</p>
+        
+    </footer>
+    <script src="../Tessa Delivery/javascript/script.js"></script>
+</body>
+</html>
